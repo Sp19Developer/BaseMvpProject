@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <import type="com.mvpbase.utils.AppUtils" />
+
+        <variable
+            name="videoitem"
+            type="com.mvpbase.data.model.Lecture" />
+
+        <import type="com.mvpbase.R" />
+    </data>
+
+    <!--<androidx.cardview.widget.CardView-->
+    <!--android:id="@+id/cardView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:cardBackgroundColor="@color/app_bg_color"-->
+    <!--app:cardCornerRadius="@dimen/app_card_corner_radius"-->
+    <!--app:cardElevation="@dimen/app_card_elevation"-->
+    <!--app:cardUseCompatPadding="true">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/_4sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivThumb"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_4sdp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/poster" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/ivTopDivider"
+                style="@style/AppTheme.Divider"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_4sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingTop="@dimen/_4sdp"
+                android:paddingEnd="@dimen/_8sdp">
+
+
+                <TextView
+                    android:id="@+id/tvCategory"
+                    style="@style/AppTheme.TextView.Bold"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:text="@{videoitem.category}"
+                    android:textColor="@color/app_color"
+                    android:textSize="@dimen/app_text_regular" />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    style="@style/AppTheme.TextView.Bold"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:text="@{videoitem.title}"
+                    android:textSize="@dimen/app_text_max"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTeacher"
+                    style="@style/AppTheme.TextView"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:text="@{videoitem.teacher}"
+                    android:textColor="@color/app_default_text_color"
+                    android:textSize="@dimen/app_text_regular_large" />
+
+                <TextView
+                    style="@style/AppTheme.TextView"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:layout_weight="1"
+                    android:maxLines="2"
+                    android:minLines="2"
+                    android:text="@{videoitem.desc}"
+                    android:textColor="@color/app_default_text_color"
+                    android:textSize="@dimen/app_text_regular_medium" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/AppTheme.TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:layout_toStartOf="@+id/tvViews"
+                        android:text="@{AppUtils.getHastTag(videoitem.tag)}"
+                        android:textColor="@color/app_default_text_color"
+                        android:textSize="@dimen/app_text_regular_medium" />
+
+                    <LinearLayout
+                        android:id="@+id/tvViews"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="@dimen/_2sdp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="@dimen/_2sdp"
+                        android:paddingEnd="@dimen/_2sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ivHeart"
+                            style="@style/AppTheme.TextViewIconImage"
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_8sdp"
+                            android:tint="@{videoitem.like_stat.equals(`on`) ? @color/strong_pink : @color/app_color }"
+                            />
+
+                        <TextView
+                            android:id="@+id/tvNumber"
+                            style="@style/AppTheme.TextView.IconTextview"
+                            android:text="@{videoitem.like}"
+                            android:textSize="@dimen/app_text_regular_medium" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/ivBottomDivider"
+                style="@style/AppTheme.Divider"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--</androidx.cardview.widget.CardView>-->
+</layout>

@@ -1,0 +1,321 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Base.Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="overlapAnchor">false</item>
+        <item name="coordinatorLayoutStyle">@style/Widget.Support.CoordinatorLayout</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">@dimen/_3sdp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="AppTheme.TitleTextAppearance">
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textColor">@color/app_text_color_light</item>
+<!--        <item name="fontPath">@string/font_regular</item>-->
+    </style>
+
+    <style name="match_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AppTheme.TextView" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_regular</item>
+        <item name="android:textColor">@color/app_text_color</item>
+<!--        <item name="fontPath">@string/font_regular</item>-->
+        <item name="android:gravity">left|start</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AppTheme.TextView.NavMenu">
+        <item name="android:drawableTint">@color/app_default_text_color</item>
+        <item name="android:padding">@dimen/app_padding</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:drawablePadding">@dimen/app_padding</item>
+    </style>
+
+    <style name="AppTheme.TextView.Bold" parent="AppTheme.TextView">
+<!--        <item name="fontPath">@string/font_bold</item>-->
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextView.NotFound" parent="AppTheme.TextView.Bold">
+        <item name="android:textColor">@color/app_hint_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/app_bg_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/lbl_no_records_found</item>
+        <item name="android:textSize">@dimen/app_text_large</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_max</item>
+        <item name="android:textColor">@color/app_text_color_light</item>
+<!--        <item name="fontPath">@string/font_regular</item>-->
+        <item name="android:background">@color/app_bg_color</item>
+        <item name="android:textAllCaps">false</item>
+
+        <item name="android:paddingTop">@dimen/app_padding</item>
+        <item name="android:paddingBottom">@dimen/app_padding</item>
+
+    </style>
+
+    <style name="AppTheme.Button.Login" parent="AppTheme.Button">
+        <item name="cornerRadius">@dimen/_15sdp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+
+    <style name="AppTheme.CustomDialogButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+<!--        <item name="fontPath">@string/font_regular</item>-->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/app_text_regular</item>
+    </style>
+
+    <style name="AppTheme.ButtonOutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/app_text_regular</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+        <item name="android:layout_marginLeft">@dimen/app_margin</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/app_margin</item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:layout_marginStart" tools:ignore="NewApi">@dimen/app_margin</item>
+
+        <!--<item name="android:paddingTop">@dimen/app_padding</item>
+          <item name="android:paddingBottom">@dimen/app_padding</item>
+          <item name="android:paddingLeft">@dimen/app_padding</item>
+          <item name="android:paddingRight">@dimen/app_padding</item>
+          <item name="android:paddingStart">@dimen/app_padding</item>
+          <item name="android:paddingEnd">@dimen/app_padding</item>-->
+    </style>
+
+    <style name="AppTheme.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_1sdp</item>
+        <item name="android:background">@color/divider_bg_color</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <!--<item name="fontFamily">@font/open_sans_regular</item>-->
+    </style>
+
+    <style name="AppTheme.BtmNavigationSelectedText" parent="AppTheme.TextView.Bold">
+        <item name="android:textSize">@dimen/app_text_medium</item>
+        <item name="android:textColor">@color/btm_nav_selected</item>
+
+    </style>
+
+    <style name="AppTheme.BtmNavigationInactiveText" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/app_text_medium</item>
+        <item name="android:textColor">@color/btm_nav_selected</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text_color</item>
+<!--        <item name="fontPath">@string/font_regular</item>-->
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColorHint">@color/app_hint_color</item>
+
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <item name="android:layout_marginBottom">@dimen/app_margin</item>
+        <item name="android:layout_marginLeft">@dimen/app_margin</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/app_margin</item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:layout_marginStart" tools:ignore="NewApi">@dimen/app_margin</item>
+
+    </style>
+
+    <style name="AppTheme.EditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:inputType">textCapSentences</item>
+        <item name="android:textSize">@dimen/app_edt_text_size</item>
+        <item name="android:textColor">@color/app_text_color_light</item>
+        <item name="android:textColorHint">@color/login_hint_color</item>
+        <item name="colorButtonNormal">@color/app_text_color</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout.Login" parent="Widget.Design.TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/login_text_color</item>
+<!--        <item name="fontPath">@string/font_regular</item>-->
+
+        <!--et hint color will be here-->
+        <item name="android:textColorHint">@color/login_hint_color</item>
+        <!--floating label text appearance-->
+        <item name="hintTextAppearance">@style/AppTheme.HintLabel</item>
+
+        <item name="errorTextAppearance">@style/AppTheme.ErrorLabel</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <!--<item name="android:layout_marginBottom">@dimen/app_margin</item>-->
+        <item name="android:layout_marginLeft">@dimen/app_margin</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/app_margin
+        </item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:layout_marginStart" tools:ignore="NewApi">@dimen/app_margin
+        </item>
+    </style>
+
+    <style name="TextInputTheme" parent="ThemeOverlay.MaterialComponents.TextInputEditText">
+        <item name="android:colorControlNormal">@color/login_et_line_color</item>
+        <item name="colorControlActivated">@color/login_et_line_color</item>
+        <item name="colorControlHighlight">@color/login_et_line_color</item>
+    </style>
+
+    <style name="AppTheme.EditText.Login" parent="Widget.AppCompat.EditText">
+        <item name="android:theme">@style/TextInputTheme</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <!--text size for hint and text-->
+        <item name="android:textSize">@dimen/app_edt_text_size</item>
+        <!--written text color will be changed-->
+        <item name="android:textColor">@color/login_text_color</item>
+        <!--hint color wont work untill there is text input layout-->
+        <item name="android:textColorHint">@color/login_hint_color</item>
+
+        <item name="android:inputType">textCapSentences</item>
+
+
+    </style>
+
+    <style name="AppTheme.TextInputLayout.Search" parent="Widget.Design.TextInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text_color</item>
+<!--        <item name="fontPath">@string/font_regular</item>-->
+
+        <!--et hint color will be here-->
+        <item name="android:textColorHint">@color/app_hint_color</item>
+        <!--floating label text appearance-->
+        <item name="hintTextAppearance">@style/AppTheme.HintLabel</item>
+
+        <item name="errorTextAppearance">@style/AppTheme.ErrorLabel</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/app_margin</item>
+        <!--<item name="android:layout_marginBottom">@dimen/app_margin</item>-->
+        <item name="android:layout_marginLeft">@dimen/app_margin</item>
+        <item name="android:layout_marginEnd" tools:ignore="NewApi">@dimen/app_margin
+        </item>
+        <item name="android:layout_marginRight">@dimen/app_margin</item>
+        <item name="android:layout_marginStart" tools:ignore="NewApi">@dimen/app_margin
+        </item>
+    </style>
+
+    <style name="TextInputTheme.Search" parent="ThemeOverlay.MaterialComponents.TextInputEditText">
+        <item name="android:colorControlNormal">@color/app_text_color</item>
+        <item name="colorControlActivated">@color/app_text_color</item>
+        <item name="colorControlHighlight">@color/app_text_color</item>
+    </style>
+
+    <style name="AppTheme.EditText.Search" parent="Widget.AppCompat.EditText">
+        <item name="android:theme">@style/TextInputTheme.Search</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <!--text size for hint and text-->
+        <item name="android:textSize">@dimen/app_edt_text_size</item>
+        <!--written text color will be changed-->
+        <item name="android:textColor">@color/app_default_text_color</item>
+        <!--hint color wont work untill there is text input layout-->
+        <item name="android:textColorHint">@color/app_default_text_color</item>
+
+        <item name="android:inputType">textCapSentences</item>
+
+
+    </style>
+    <style name="AppTheme.HintLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">@dimen/edt_hint_text_size</item>
+        <item name="android:textColor">@color/app_hint_color</item>
+    </style>
+
+    <style name="AppTheme.ErrorLabel" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/error</item>
+        <item name="android:textSize">@dimen/edt_hint_text_size</item>
+    </style>
+
+    <style name="AppTheme.TextViewIconImage">
+        <item name="android:layout_height">@dimen/_10sdp</item>
+        <item name="android:layout_width">@dimen/_12sdp</item>
+        <item name="android:src">@drawable/ic_heart</item>
+        <item name="android:layout_marginStart">@dimen/_2sdp</item>
+    </style>
+
+    <style name="AppTheme.ImageView" />
+
+    <style name="AppTheme.ImageView.etIcon">
+        <item name="android:layout_height">@dimen/_12sdp</item>
+        <item name="android:layout_width">@dimen/_12sdp</item>
+
+    </style>
+
+    <style name="AppTheme.TextView.IconTextview" parent="AppTheme.TextView">
+        <item name="android:textColor">@color/app_default_text_color</item>
+        <item name="android:textSize">@dimen/app_text_regular_medium</item>
+        <item name="android:paddingStart">@dimen/_2sdp</item>
+        <item name="android:paddingEnd">@dimen/_4sdp</item>
+    </style>
+
+
+    <style name="TrackSelectionDialogThemeOverlay" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="AppTheme.CheckBox" />
+
+    <style name="AppTheme.CheckBox.Login" parent="AppTheme.CheckBox">
+        <item name="android:textColor">@color/login_text_color</item>
+        <item name="android:button">@drawable/ic_check_box</item>
+        <item name="android:paddingStart">@dimen/app_padding</item>
+        <item name="android:paddingEnd">@dimen/app_padding</item>
+
+    </style>
+
+    <style name="AppTheme.Spinner" parent="Base.Widget.AppCompat.Spinner.Underlined">
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:backgroundTint">@color/login_white</item>
+    </style>
+</resources>

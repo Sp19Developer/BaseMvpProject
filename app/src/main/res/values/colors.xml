@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_palettes_500">#0070f0</color>
+    <color name="color_palettes_500_semi_transparent">#800070f0</color>
+    <color name="color_palettes_400">#0070f0</color>
+    <color name="color_palettes_200">#dbe4ed</color>
+    <color name="color_palettes_100">#ffffff</color>
+
+
+    <color name="colorPrimary">@color/color_palettes_500</color>
+    <color name="colorPrimaryDark">@color/color_palettes_500</color>
+    <color name="colorAccent">@color/color_palettes_500</color>
+
+    <color name="colorPrimaryPix">@color/colorPrimaryDark</color>
+    <color name="colorPrimaryLightPix">@color/colorPrimary</color>
+
+    <color name="app_color">@color/colorPrimary</color>
+    <color name="app_bg_color">@color/color_palettes_100</color>
+    <color name="app_text_color">#272e40</color>
+    <color name="app_text_color_light">@color/color_palettes_100</color>
+    <color name="app_default_text_color">#727272</color>
+    <color name="login_white">#b3ffffff</color>
+    <color name="login_text_color">@color/login_white</color>
+
+
+    <color name="app_notification_badge_color">@android:color/holo_red_dark</color>
+
+    <color name="des_text_color">@color/app_default_text_color</color>
+
+    <color name="app_icon_dark">@color/color_palettes_500</color>
+    <color name="app_icon_gray">@color/semi_transparent</color>
+    <color name="app_icon_light">@color/color_palettes_100</color>
+
+    <color name="app_button_bg_color">@color/color_palettes_400</color>
+
+    <color name="navigation_header_color">@color/color_palettes_400</color>
+    <color name="navigation_menu_color">@color/color_palettes_100</color>
+
+    <color name="color_lost">@android:color/holo_red_dark</color>
+    <color name="color_found">@color/color_palettes_500</color>
+
+    <color name="black">@color/color_palettes_500</color>
+    <color name="white">@color/color_palettes_100</color>
+    <color name="semi_transparent">@color/color_palettes_500_semi_transparent</color>
+
+
+    <color name="user_icon_color">@color/semi_transparent</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="shader_color">@color/color_palettes_200</color>
+    <color name="add_contact_bg">#d3d3d3</color>
+
+
+    <color name="shader_color_background">#D3D3D3</color>
+    <color name="divider_bg_color">#dbdbdb</color>
+    <color name="btm_nav_unselected">#7e7e7e</color>
+    <color name="btm_nav_selected">@color/colorPrimary</color>
+
+    <color name="app_hint_color">@color/app_default_text_color</color>
+    <color name="login_hint_color">
+        @color/login_text_color
+    </color>
+
+
+    <color name="default_color">#02a6d8</color>
+    <color name="default_color_dark">#52a6b8</color>
+    <color name="status_color">@android:color/holo_green_dark</color>
+    <color name="progress_color">@android:color/holo_green_light</color>
+
+
+    <color name="error">#b00020</color>
+    <color name="login_et_line_color">@color/login_white</color>
+
+    <color name="strong_pink">#ff006c</color>
+    <color name="side_menu_selected_bg">#ecf3fb</color>
+    <color name="player_detail_tag_bg">#100070f0</color>
+
+
+    <color name="category1">#EA85D3</color>
+    <color name="category2">#B076DB</color>
+    <color name="category3">#57D580</color>
+    <color name="category4">#48BCF9</color>
+    <color name="categorymain">#1670F0</color>
+    <color name="progress_bg">#F6F6F6</color>
+    <color name="progress_start">#00e3f0    </color>
+    <color name="progress_end">@color/colorPrimary   </color>
+    <color name="approval_label">#fe5c4f</color>
+    <color name="deadline_label">#616161</color>
+    <color name="wisteria">#b076db</color>
+
+
+
+</resources>

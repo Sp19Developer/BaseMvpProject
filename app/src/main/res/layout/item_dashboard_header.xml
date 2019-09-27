@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="dashitem"
+            type="com.mvpbase.ui.model.DashboardItem" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:background="@color/divider_bg_color" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_4sdp">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/AppTheme.TextView.Bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_toStartOf="@+id/LinTeacher"
+                android:maxLines="2"
+                android:text="@{dashitem.header}"
+                android:textColor="@color/app_text_color"
+                android:textSize="@dimen/app_text_regular_large"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/LinTeacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/_4sdp"
+                android:background="@drawable/rounded_textview_blue"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_2sdp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivHeart"
+                    style="@style/AppTheme.TextViewIconImage"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:src="@drawable/ic_plus"
+                    android:tint="@color/app_color" />
+
+                <TextView
+                    android:id="@+id/tvTeacher"
+                    style="@style/AppTheme.TextView.IconTextview"
+                    android:text="@string/menu_more"
+                    android:textColor="@color/app_color"
+                    android:textSize="@dimen/app_text_regular" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

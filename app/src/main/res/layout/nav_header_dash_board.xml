@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_header_color"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="@dimen/app_margin">
+
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@drawable/ic_profile"
+            app:srcCompat="@drawable/ic_profile"
+            android:layout_alignParentTop="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/app_margin" />
+
+
+        <TextView
+            android:id="@+id/tvUsername"
+            style="@style/AppTheme.TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/profile_image"
+            app:layout_constraintTop_toTopOf="@id/profile_image"
+            app:layout_constraintBottom_toBottomOf="@id/profile_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            android:layout_marginStart="@dimen/app_margin"
+            android:textSize="@dimen/app_text_medium"
+            android:text="조인성"
+            android:maxLines="1"
+
+            android:textColor="@color/app_text_color_light" />
+
+        <TextView
+            android:id="@+id/tvUserId"
+            style="@style/AppTheme.TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvUsername"
+            app:layout_constraintStart_toStartOf="@id/tvUsername"
+            app:layout_constraintTop_toBottomOf="@id/tvUsername"
+            android:layout_marginTop="@dimen/app_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/app_text_medium"
+            android:maxLines="1"
+            android:text="SIN120012"
+            app:layout_constraintHorizontal_bias="0"
+            android:textColor="@color/app_text_color_light" />
+
+        <TextView
+            android:id="@+id/tvCompanyGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="신한금융그룹"
+            app:layout_constraintStart_toStartOf="@id/tvUserId"
+            app:layout_constraintTop_toBottomOf="@id/tvUserId"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/app_margin_min"
+            android:textSize="@dimen/app_text_medium"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/app_text_color_light"
+            app:layout_constraintVertical_bias="0"
+
+            />
+
+        <TextView
+            android:id="@+id/tvUserTeam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/tvCompanyGroup"
+            app:layout_constraintTop_toBottomOf="@id/tvCompanyGroup"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/app_margin_min"
+            android:textSize="@dimen/app_text_medium"
+            android:textColor="@color/app_text_color_light"
+            android:text="그룹전략부분/전략기획팀"
+            android:layout_marginBottom="@dimen/_20sdp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/ivLogout"
+            android:layout_alignParentEnd="true"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/ic_logout"
+            android:layout_alignParentTop="true"
+            android:visibility="gone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

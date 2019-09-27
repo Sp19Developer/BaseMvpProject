@@ -1,0 +1,227 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">mvpBase</string>
+
+    <string name="font_regular" translatable="false">font/Arial-Regular.ttf</string>
+    <string name="font_bold" translatable="false">font/Arial-Bold.ttf</string>
+
+    <string name="msg_under_developement">This feature is under development.</string>
+    <string name="msg_alert_you_have_permission">You have deny  some permission , please go to setting and enable it.</string>
+    <string name="msg_network_not_available">Please check your internet connection</string>
+    <string name="msg_no_network_connection">No internet connection found. Check your connection or try again.</string>
+    <string name="msg_confirmation">Would you like to apply?</string>
+    <string name="msg_approval_success">Approval Success</string>
+
+    <string name="lbl_press_again_to_exit">press again to exit</string>
+    <string name="lbl_forgot_psw">Forgot password ?</string>
+    <string name="lbl_sign_up"><u>New User ? Sign up</u></string>
+    <string name="lbl_signUp_privacy">I have read privacy policy and i agree.</string>
+    <string name="lbl_no_records_found">No Records Found!</string>
+    <string name="lbl_login_automatically">Logging in automatically</string>
+
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_retry">Tap to Retry</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_approve">Approve</string>
+    <string name="btn_decline">Decline</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="txt_version">Version code:\u0020 </string>
+    <string name="txt_build">\u0020Build:\u0020 </string>
+
+    <string name="str_hint_fname">First Name</string>
+    <string name="str_hint_lname">Last Name</string>
+    <string name="str_hint_email">Email</string>
+    <string name="str_employee_number">Employee number</string>
+    <string name="str_hint_phone_number">Phone Number</string>
+    <string name="str_hint_moblie">Mobile Number</string>
+    <string name="str_hint_pword">Password</string>
+    <string name="str_hint_confirm_pword">Confirm Password</string>
+    <string name="str_hint_old_pword">Old Password</string>
+    <string name="str_hint_new_pword">New Password</string>
+    <string name="str_hint_confirm_new_pword">Confirm New Password</string>
+
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_history">History</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_more">More</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_education_info">Education Information</string>
+    <string name="menu_education_info_detail">Education Detail</string>
+    <string name="menu_survey">Survey</string>
+    <string name="menu_notice">Notice</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_status">Status</string>
+
+
+    <string name="btm_nav_home">Dashboard</string>
+    <string name="btm_nav_search">Search</string>
+    <string name="btm_nav_album">Albums</string>
+    <string name="btm_nav_my_account">My Account</string>
+
+    <string name="str_title" translatable="false">for screen title in toolbar or header</string>
+    <string name="str_lbl" translatable="false">For Text View</string>
+    <string name="str_hint" translatable="false">for edit text hint</string>
+    <string name="str_val" translatable="false">for edit text validations</string>
+    <string name="str_msg" translatable="false">for messages toast custom dialog messages</string>
+    <string name="str_menu" translatable="false">for menu titles</string>
+    <string name="str_btn" translatable="false">For buttons</string>
+
+
+    <string name="str_title_approval">List of Applicants</string>
+    <string name="str_title_dashboard">Dashboard</string>
+    <string name="str_title_sign_up">Sign Up</string>
+    <string name="str_title_log_in">Log In</string>
+    <string name="str_title_update_profile">Update Profile</string>
+    <string name="str_title_forgot_password">Forgot Password</string>
+    <string name="str_title_change_password">Change Password</string>
+    <string name="str_title_privacy_policy">Privacy Policy</string>
+    <string name="str_title_media_crop">Media Crop</string>
+    <string name="str_title_edit_profile">Edit Profile</string>
+    <string name="str_title_info">Info</string>
+    <string name="str_category_list">Digital ICT</string>
+
+
+    <string name="str_val_enter_fname">Please enter your name.</string>
+    <string name="str_val_enter_lname">Please enter your name.</string>
+    <string name="str_val_enter_email">Please enter your email</string>
+    <string name="str_val_enter_usr_id">Please enter user id</string>
+
+    <string name="str_val_enter_valid_email">Please enter valid email</string>
+    <string name="str_val_enter_mob_no">Please enter phone number.</string>
+    <string name="str_val_enter_valid_mob_no">Please enter valid phone number.</string>
+    <string name="str_val_enter_pword">Please enter password.</string>
+    <string name="str_val_invalid_pword">Password length must be 6</string>
+    <string name="str_val_enter_confir_password">Please enter confirm password.</string>
+    <string name="str_val_enter_valid_mobile">Please enter valid mobile number.</string>
+    <string name="str_val_pwords_not_match">password and confirm password not match.</string>
+    <string name="str_val_enter_hint">Please enter password hint.</string>
+    <string name="str_val_check_privacy_policy">Please check privacy policy.</string>
+
+    <string name="str_menu_lbl_done">Done</string>
+
+    <string name="str_msg_under_developement">This feature is under development.</string>
+    <string name="str_msg_press_again_to_exit">Press again to exit</string>
+    <string name="str_msg_no_network_connection">No internet connection found. Check your connection or try again.
+    </string>
+    <string name="str_msg_no_internet">No internet connection.</string>
+    <string name="str_msg_you_have_denied_permissions">You have deny some permission , please go to setting and enable
+        it.
+    </string>
+    <string name="str_msg_choose_action">Choose one action</string>
+    <string name="str_msg_loading">Loading...</string>
+    <string name="msg_confirm_logout">Are you sure you want to Logout?</string>
+
+    <string name="str_btn_retry">Tap to Retry</string>
+    <string name="str_btn_signup">SignUp</string>
+    <string name="str_btn_update_profile">Update Profile</string>
+    <string name="str_btn_login">LogIn</string>
+    <string name="str_btn_forgot_pass">Forgot Password</string>
+    <string name="str_btn_change_pass">Change Password</string>
+    <string name="str_btn_setting">Settings</string>
+    <string name="str_btn_ok">OK</string>
+    <string name="str_btn_cancel">Cancel</string>
+    <string name="str_btn_change">Change</string>
+    <string name="str_btn_remove">Remove</string>
+
+
+    <string name="str_lbl_whoops">Whoops..!</string>
+    <string name="str_lbl_signup_privacy_policy">I have read privacy policy and i agree.</string>
+    <string name="str_lbl_forgot_password">Forgot Password?</string>
+    <string name="str_lbl_dont_have_account">Don\'t have account? Sign Up</string>
+    <string name="str_lbl_logout">Logout</string>
+    <string name="str_lbl_push_notification">Push Notification</string>
+    <string name="str_lbl_do_not_disturb_mode">Do not disturb mode</string>
+    <string name="str_lbl_you_won_t_receive_notification_at_that_time">You won\'t receive notification at that time</string>
+    <string name="str_lbl_start">Start</string>
+    <string name="str_lbl_end">End</string>
+    <string name="str_lbl_course_completed">Course Completed</string>
+    <string name="str_lbl_course_studying">Studying</string>
+    <string name="str_lbl_dashboard_header2">Popular</string>
+    <string name="str_lbl_dashboard_header1">New</string>
+
+
+    //ERROER MESSAGE WEB VIEW
+    <string name="str_err_msg_ssl_certificate_error">SSL Certificate error.</string>
+    <string name="str_err_msg_ssl_certificate_error_not_yet_valid">The certificate is not yet valid.</string>
+    <string name="str_err_msg_ssl_certificate_expired">The certificate has expired.</string>
+    <string name="str_err_msg_ssl_certificate_host_miss_match">The certificate Hostname mismatch.</string>
+    <string name="str_err_msg_ssl_certificate_authority_untrusted">The certificate authority is not trusted.</string>
+    <string name="str_err_msg_ssl_certificate_date_invalid">Certificate\'s app_date is invalid.</string>
+    <string name="str_err_msg_ssl_certificate_invalid">Certificate is invalid.</string>
+    <string name="msg_confirm_continue_anyway">\u0020 Do you want to continue anyway?</string>
+
+
+    <string-array name="login_drop_down">
+        <item>신한금융지주</item>
+        <item>신한은행</item>
+        <item>신한카드</item>
+        <item>신한금융지주</item>
+        <item>신한생명</item>
+        <item>오렌지라이프</item>
+        <item>신한BNP파리바자산운용</item>
+        <item>신한캐피탈</item>
+        <item>제주은행</item>
+        <item>신한저축은행</item>
+        <item>아시아신탁</item>
+        <item>신한DS</item>
+        <item>신한아이타스</item>
+        <item>신한신용정보</item>
+        <item>신한대체투자운용</item>
+        <item>신한리츠운용</item>
+        <item>신한AI</item>
+    </string-array>
+
+    <string-array name="login_drop_down_key">
+        <item>SG</item>
+        <item>SH</item>
+        <item>LC</item>
+        <item>GS</item>
+        <item>SL</item>
+        <item>OL</item>
+        <item>SM</item>
+        <item>CP</item>
+        <item>CB</item>
+        <item>SV</item>
+        <item>AT</item>
+        <item>SY</item>
+        <item>SA</item>
+        <item>CR</item>
+        <item>PE</item>
+        <item>RE</item>
+        <item>AI</item>
+    </string-array>
+
+    <string name="str_lbl_next_courses">Next Courses</string>
+    <string name="str_lbl_introduction">Introduction</string>
+    <string name="str_lbl_curriculum">Curriculum</string>
+    <string name="str_lbl_close">Close</string>
+    <string name="str_lbl_start_date">Start Date:</string>
+    <string name="str_lbl_last_date">Last Date:</string>
+    <string name="str_lbl_progress">Progress</string>
+    <string name="str_lbl_deadline">DeadLine:</string>
+    <string name="str_lbl_req_traing">Request training</string>
+    <string name="str_msg_edu_info_popup">Course Title Python Basics \nHong Kil-Dong Team Manager</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="str_hint_search">Please enter a search term</string>
+    <string name="btn_companion">Reject</string>
+    <string name="btn_ack">Accept</string>
+
+
+    <string name="app_type_a">Application available</string>
+    <string name="app_type_w">Application wait</string>
+    <string name="app_type_d">Application deadline</string>
+    <string name="app_type_p">Application approved</string>
+    <string name="app_type_r">Application rejected</string>
+
+
+
+
+</resources>

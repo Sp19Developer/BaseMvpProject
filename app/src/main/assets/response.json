@@ -1,0 +1,884 @@
+{
+  "dashboard": [
+    {
+      "type": "viewpager",
+      "header": "Dash",
+      "lecture": [
+        {
+          "lecture_id": "A0001",
+          "title": "정보보안교육(ICT직무)",
+          "desc": "아는 만큼 보이 정보보안, ICT직무용 교육자료입니다.",
+          "thumb": "A0001.png",
+          "like": 205,
+          "like_stat": "off",
+          "teacher": "신한DS",
+          "tag": [
+            "정보보안",
+            "ICT"
+          ],
+          "cate_id": "ca04",
+          "cate_name": "법정의무"
+        },
+        {
+          "lecture_id": "A0002",
+          "title": "정보보안교육(임원)",
+          "desc": "아는 만큼 보이 정보보안, 임원용 교욱자료입니다.",
+          "thumb": "A0002.png",
+          "like": 163,
+          "like_stat": "on",
+          "teacher": "신한DS",
+          "tag": [
+            "정보보안",
+            "임원"
+          ],
+          "cate_id": "ca04",
+          "cate_name": "법정의무"
+        },
+        {
+          "lecture_id": "A0003",
+          "title": "정보보안교육(일반직무)",
+          "desc": "아는 만큼 보이 정보보안, 일반직무용 교욱자료입니다.",
+          "thumb": "A0003.png",
+          "like": 105,
+          "like_stat": "on",
+          "teacher": "신한DS",
+          "tag": [
+            "정보보안",
+            "일반직무"
+          ],
+          "cate_id": "ca04",
+          "cate_name": "법정의무"
+        },
+        {
+          "lecture_id": "A0004",
+          "title": "에프터이펙트를 시작해보자",
+          "desc": "본 강좌는 에프터이펙트 하나만 있으면 들으실수 있도록 최대한 간단하면서 에프터이펙트 안에서 만들 수 있는 것들로 만들어졌습니다.",
+          "thumb": "A0004.png",
+          "like": 271,
+          "like_stat": "off",
+          "teacher": "이영철",
+          "tag": [
+            "Design",
+            "it",
+            "영상편집",
+            "광고"
+          ],
+          "cate_id": "ca01",
+          "cate_name": "디지털.ICT"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "header": "인기강좌",
+      "lecture": [
+        {
+          "lecture_id": "A0002",
+          "title": "정보보안교육(임원)",
+          "desc": "아는 만큼 보이 정보보안, 임원용 교욱자료입니다.",
+          "thumb": "A0002.png",
+          "like": 163,
+          "like_stat": "on",
+          "teacher": "신한DS",
+          "tag": [
+            "정보보안",
+            "임원"
+          ],
+          "cate_id": "ca04",
+          "cate_name": "법정의무"
+        },
+        {
+          "lecture_id": "A0005",
+          "title": "파이썬으로 구현하는 거래 자동화 봇(챗봇)",
+          "desc": "파이썬을 이용하여 거래소로부터 비트코인의 가격을 가져오고 정해진 타이밍에 거래하는 챗봇개발",
+          "thumb": "A0005.png",
+          "like": 138,
+          "like_stat": "on",
+          "teacher": "최영훈",
+          "tag": [
+            "챗봇",
+            "it",
+            "파이썬",
+            "AI"
+          ],
+          "cate_id": "ca01",
+          "cate_name": "디지털.ICT"
+        },
+        {
+          "lecture_id": "A0006",
+          "title": "플랫폼 비즈니스의 이해와 개발",
+          "desc": "이 강좌는 플랫폼 비즈니스에 대한 개념을 전체적으로 한 번 이해하고자 하는 분을 위해 만들었습니다",
+          "thumb": "A0006.png",
+          "like": 397,
+          "like_stat": "on",
+          "teacher": "민수진",
+          "tag": [
+            "java",
+            "it",
+            "programming",
+            "AI"
+          ],
+          "cate_id": "ca03",
+          "cate_name": "인문.어학"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "header": "최신강좌",
+      "lecture": [
+        {
+          "lecture_id": "A0003",
+          "title": "정보보안교육(일반직무)",
+          "desc": "아는 만큼 보이 정보보안, 일반직무용 교욱자료입니다.",
+          "thumb": "A0003.png",
+          "like": 105,
+          "like_stat": "on",
+          "teacher": "신한DS",
+          "tag": [
+            "정보보안",
+            "일반직무"
+          ],
+          "cate_id": "ca04",
+          "cate_name": "법정의무"
+        },
+        {
+          "lecture_id": "A0008",
+          "title": "데이터 시각화와 차트분석 기법",
+          "desc": "데이터시각화의 기반이 되는 핵심용도 5가지와 핵심차트 10가지를 이해하고 활용 예를 알아봅니다.",
+          "thumb": "A0008.png",
+          "like": 218,
+          "like_stat": "on",
+          "teacher": "이병훈",
+          "tag": [
+            "java",
+            "it",
+            "programming",
+            "AI"
+          ],
+          "cate_id": "ca02",
+          "cate_name": "경영.리더십"
+        },
+        {
+          "lecture_id": "A0009",
+          "title": "Flutter 중급 - Http통신, 상태관리",
+          "desc": "CNN, RNN, LSTM 등 다양한 신경망을 단 한줄의 코드로 구축해 보세요",
+          "thumb": "A0009.png",
+          "like": 164,
+          "like_stat": "off",
+          "teacher": "김준수",
+          "tag": [
+            "java",
+            "it",
+            "programming",
+            "AI"
+          ],
+          "cate_id": "ca04",
+          "cate_name": "법정의무"
+        },
+        {
+          "lecture_id": "A0010",
+          "title": "예제로 배우는 스프링 입문",
+          "desc": "Spring - PetClinic이라는 스프링 공식 예제 프로젝트의 코드 학습",
+          "thumb": "A0010.png",
+          "like": 345,
+          "like_stat": "on",
+          "teacher": "이민정",
+          "tag": [
+            "java",
+            "it",
+            "programming",
+            "AI"
+          ],
+          "cate_id": "ca04",
+          "cate_name": "법정의무"
+        },
+        {
+          "lecture_id": "A0001",
+          "title": "안드로이드를 위한 자바 프로그래밍JAVA Programming",
+          "desc": "안드로이드 앱개발을 위해 꼭 필요한 자바 부분을 선별해서 강의입니다.",
+          "thumb": "A0001.png",
+          "like": 205,
+          "like_stat": "off",
+          "teacher": "윤재성",
+          "tag": [
+            "java",
+            "it",
+            "programming",
+            "안드로이드"
+          ],
+          "cate_id": "ca01",
+          "cate_name": "디지털.ICT"
+        },
+        {
+          "lecture_id": "A0002",
+          "title": "Firebase 서버를 통한 Android 채팅앱 HowlTalk 만들기",
+          "desc": "구글에서 개발한 서버로 간편하게 파이어베이스 서버를 이용해서 채팅앱을 만들어보세요",
+          "thumb": "A0002.png",
+          "like": 163,
+          "like_stat": "on",
+          "teacher": "김찬준",
+          "tag": [
+            "Firebase",
+            "it",
+            "programming",
+            "Android"
+          ],
+          "cate_id": "ca01",
+          "cate_name": "디지털.ICT"
+        },
+        {
+          "lecture_id": "A0003",
+          "title": "인공지능 R GO! 하자!",
+          "desc": "CNN, RNN, LSTM 등 다양한 신경망을 단 한줄의 코드로 구축해 보세요",
+          "thumb": "A0003.png",
+          "like": 105,
+          "like_stat": "on",
+          "teacher": "정재훈",
+          "tag": [
+            "java",
+            "it",
+            "programming",
+            "AI"
+          ],
+          "cate_id": "ca01",
+          "cate_name": "디지털.ICT"
+        },
+        {
+          "lecture_id": "A0004",
+          "title": "에프터이펙트를 시작해보자",
+          "desc": "본 강좌는 에프터이펙트 하나만 있으면 들으실수 있도록 최대한 간단하면서 에프터이펙트 안에서 만들 수 있는 것들로 만들어졌습니다.",
+          "thumb": "A0004.png",
+          "like": 271,
+          "like_stat": "off",
+          "teacher": "이영철",
+          "tag": [
+            "Design",
+            "it",
+            "영상편집",
+            "광고"
+          ],
+          "cate_id": "ca01",
+          "cate_name": "디지털.ICT"
+        },
+        {
+          "lecture_id": "A0005",
+          "title": "파이썬으로 구현하는 거래 자동화 봇(챗봇)",
+          "desc": "파이썬을 이용하여 거래소로부터 비트코인의 가격을 가져오고 정해진 타이밍에 거래하는 챗봇개발",
+          "thumb": "A0005.png",
+          "like": 138,
+          "like_stat": "on",
+          "teacher": "최영훈",
+          "tag": [
+            "챗봇",
+            "it",
+            "파이썬",
+            "AI"
+          ],
+          "cate_id": "ca01",
+          "cate_name": "디지털.ICT"
+        },
+        {
+          "lecture_id": "A0006",
+          "title": "플랫폼 비즈니스의 이해와 개발",
+          "desc": "이 강좌는 플랫폼 비즈니스에 대한 개념을 전체적으로 한 번 이해하고자 하는 분을 위해 만들었습니다",
+          "thumb": "A0006.png",
+          "like": 397,
+          "like_stat": "on",
+          "teacher": "민수진",
+          "tag": [
+            "java",
+            "it",
+            "programming",
+            "AI"
+          ],
+          "cate_id": "ca03",
+          "cate_name": "인문.어학"
+        }
+      ]
+    }
+  ],
+  "sub_list": [
+    {
+      "lecture_id": "A0001",
+      "title": "정보보안교육(ICT직무)",
+      "desc": "아는 만큼 보이 정보보안, ICT직무용 교육자료입니다.",
+      "thumb": "A0001.png",
+      "like": 205,
+      "like_stat": "off",
+      "teacher": "신한DS",
+      "tag": [
+        "정보보안",
+        "ICT"
+      ],
+      "cate_id": "ca04",
+      "cate_name": "법정의무"
+    },
+    {
+      "lecture_id": "A0002",
+      "title": "정보보안교육(임원)",
+      "desc": "아는 만큼 보이 정보보안, 임원용 교욱자료입니다.",
+      "thumb": "A0002.png",
+      "like": 163,
+      "like_stat": "on",
+      "teacher": "신한DS",
+      "tag": [
+        "정보보안",
+        "임원"
+      ],
+      "cate_id": "ca04",
+      "cate_name": "법정의무"
+    },
+    {
+      "lecture_id": "A0003",
+      "title": "정보보안교육(일반직무)",
+      "desc": "아는 만큼 보이 정보보안, 일반직무용 교욱자료입니다.",
+      "thumb": "A0003.png",
+      "like": 105,
+      "like_stat": "on",
+      "teacher": "신한DS",
+      "tag": [
+        "정보보안",
+        "일반직무"
+      ],
+      "cate_id": "ca04",
+      "cate_name": "법정의무"
+    },
+    {
+      "lecture_id": "A0004",
+      "title": "에프터이펙트를 시작해보자",
+      "desc": "본 강좌는 에프터이펙트 하나만 있으면 들으실수 있도록 최대한 간단하면서 에프터이펙트 안에서 만들 수 있는 것들로 만들어졌습니다.",
+      "thumb": "A0004.png",
+      "like": 271,
+      "like_stat": "off",
+      "teacher": "이영철",
+      "tag": [
+        "Design",
+        "it",
+        "영상편집",
+        "광고"
+      ],
+      "cate_id": "ca01",
+      "cate_name": "디지털.ICT"
+    },
+    {
+      "lecture_id": "A0005",
+      "title": "파이썬으로 구현하는 거래 자동화 봇(챗봇)",
+      "desc": "파이썬을 이용하여 거래소로부터 비트코인의 가격을 가져오고 정해진 타이밍에 거래하는 챗봇개발",
+      "thumb": "A0005.png",
+      "like": 138,
+      "like_stat": "on",
+      "teacher": "최영훈",
+      "tag": [
+        "챗봇",
+        "it",
+        "파이썬",
+        "AI"
+      ],
+      "cate_id": "ca01",
+      "cate_name": "디지털.ICT"
+    },
+    {
+      "lecture_id": "A0006",
+      "title": "플랫폼 비즈니스의 이해와 개발",
+      "desc": "이 강좌는 플랫폼 비즈니스에 대한 개념을 전체적으로 한 번 이해하고자 하는 분을 위해 만들었습니다",
+      "thumb": "A0006.png",
+      "like": 397,
+      "like_stat": "on",
+      "teacher": "민수진",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "AI"
+      ],
+      "cate_id": "ca03",
+      "cate_name": "인문.어학"
+    },
+    {
+      "lecture_id": "A0007",
+      "title": "페이스북 퍼포먼스 마케팅 실습",
+      "desc": "페이스북의 처음부터, 가장 고난이도의 개발 기술까지 구현해보세요",
+      "thumb": "A0007.png",
+      "like": 322,
+      "like_stat": "on",
+      "teacher": "김승수",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "AI"
+      ],
+      "cate_id": "ca03",
+      "cate_name": "인문.어학"
+    },
+    {
+      "lecture_id": "A0008",
+      "title": "데이터 시각화와 차트분석 기법",
+      "desc": "데이터시각화의 기반이 되는 핵심용도 5가지와 핵심차트 10가지를 이해하고 활용 예를 알아봅니다.",
+      "thumb": "A0008.png",
+      "like": 218,
+      "like_stat": "on",
+      "teacher": "이병훈",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "AI"
+      ],
+      "cate_id": "ca02",
+      "cate_name": "경영.리더십"
+    },
+    {
+      "lecture_id": "A0009",
+      "title": "Flutter 중급 - Http통신, 상태관리",
+      "desc": "CNN, RNN, LSTM 등 다양한 신경망을 단 한줄의 코드로 구축해 보세요",
+      "thumb": "A0009.png",
+      "like": 164,
+      "like_stat": "off",
+      "teacher": "김준수",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "AI"
+      ],
+      "cate_id": "ca04",
+      "cate_name": "법정의무"
+    },
+    {
+      "lecture_id": "A0010",
+      "title": "예제로 배우는 스프링 입문",
+      "desc": "Spring - PetClinic이라는 스프링 공식 예제 프로젝트의 코드 학습",
+      "thumb": "A0010.png",
+      "like": 345,
+      "like_stat": "on",
+      "teacher": "이민정",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "AI"
+      ],
+      "cate_id": "ca04",
+      "cate_name": "법정의무"
+    }
+  ],
+  "video": [
+    {
+      "video_id": "sv0001",
+      "video_title": "1강. 최신 보안 트렌드와 위협 사례",
+      "desc": "아는 만큼 보이는 정보보안",
+      "thumb": "a0001.png",
+      "video_stat": "100",
+      "video_time": "28:16",
+      "list_order": 1,
+      "video_url": "https://player.vimeo.com/external/358231357.m3u8?s=3d6a78b350145a33796062c5a2e2512c233790a3"
+    },
+    {
+      "video_id": "sv0002",
+      "video_title": "2강. 정보보안 기본지침(컨플라이언스)의 이해",
+      "desc": "아는 만큼 보이는 정보보안",
+      "thumb": "a0001.png",
+      "video_stat": "100",
+      "video_time": "25:54",
+      "list_order": 2,
+      "video_url": "https://player.vimeo.com/external/358231457.m3u8?s=d1d4e727846035fc7415aef1ddf61d540b5e829d"
+    },
+    {
+      "video_id": "sv0003",
+      "video_title": "3강. 개인정보보호의 이해",
+      "desc": "아는 만큼 보이는 정보보안",
+      "thumb": "a0001.png",
+      "video_stat": "30",
+      "video_time": "29:18",
+      "list_order": 3,
+      "video_url": "https://player.vimeo.com/external/358231567.m3u8?s=bdc49dbf6039da81dae219abc3067b2e78839cb1"
+    },
+    {
+      "video_id": "sv0004",
+      "video_title": "4강. 일상에서 실천하는 정보보안",
+      "desc": " 아는 만큼 보이는 정보보안",
+      "thumb": "a0001.png",
+      "video_stat": "0",
+      "video_time": "19:21",
+      "list_order": 4,
+      "video_url": "https://player.vimeo.com/external/358231635.m3u8?s=d543eb66e0c6904e182bee93ceb1a91615075c4f"
+    },
+    {
+      "video_id": "sv0005",
+      "video_title": "5강. 내부정보 보호를 위한 예방 및 통제",
+      "desc": "아는 만큼 보이는 정보보안",
+      "thumb": "아는 만큼 보이는 정보보안",
+      "video_stat": "0",
+      "video_time": "18:28",
+      "list_order": 5,
+      "video_url": "https://player.vimeo.com/external/358231695.m3u8?s=7f1971dd18ed388bdf98c1236bd2d588c0238358"
+    },
+    {
+      "video_id": "sv0006",
+      "video_title": "6강. 클라우드 업무 환경의 보안관리",
+      "desc": "아는 만큼 보이는 정보보안",
+      "thumb": "a0001.png",
+      "video_stat": "0",
+      "video_time": "28:00",
+      "list_order": 6,
+      "video_url": "https://player.vimeo.com/external/358231743.m3u8?s=4a5173022cd149b2448bbd7fd5565c19cc815ddc"
+    },
+    {
+      "video_id": "sv0007",
+      "video_title": "7강. 개인정보의 안정성 확보조치",
+      "desc": "아는 만큼 보이는 정보보안",
+      "thumb": "a0001.png",
+      "video_stat": "0",
+      "video_time": "25:07",
+      "list_order": 7,
+      "video_url": "https://player.vimeo.com/external/358231831.m3u8?s=cb31fbe6833cb28d4384ebc5c404f3379184f50b"
+    },
+    {
+      "video_id": "sv0008",
+      "video_title": "8강. 침해위협 유형별 대응방안",
+      "desc": "아는 만큼 보이는 정보보안",
+      "thumb": "a0001.png",
+      "video_stat": "0",
+      "video_time": "17:05",
+      "list_order": 8,
+      "video_url": "https://player.vimeo.com/external/358231895.m3u8?s=d8ef09891b8bbfa2632b6d513828d919164eb857"
+    },
+    {
+      "video_id": "sv0009",
+      "video_title": "9강. IT아웃소싱과 보안 관리",
+      "desc": "아는 만큼 보이는 정보보안",
+      "thumb": "a0001.png",
+      "video_stat": "25",
+      "video_time": "28:19",
+      "list_order": 9,
+      "video_url": "https://player.vimeo.com/external/358231949.m3u8?s=16c4ae6a17cfc5050f4fa6519e59478aa7f63e05"
+    }
+  ],
+  "notification": [
+    {
+      "title": "JAVA 프로그래밍",
+      "message": "push message from tester",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "Test 2",
+      "message": "push message from tester",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "Test 3",
+      "message": "push message from tester",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "Test 3",
+      "message": "push message from tester",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "Test 4",
+      "message": "push message from tester",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "Test 5",
+      "message": "push message from tester",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "Test 6",
+      "message": "push message from tester",
+      "date": "08.28 (수) 오전 11시 39분"
+    }
+  ],
+  "history": [
+    {
+      "lecture_id": "A0001",
+      "title": "JAVA 프로그래밍",
+      "desc": "안드로이드 앱개발을 위해 꼭 필요한 자바 부분을 선별해서 강의입니다.",
+      "thumb": "A0001.png",
+      "like": 205,
+      "like_stat": "off",
+      "teacher": "윤재성",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "안드로이드"
+      ],
+      "cate_id": "ca01",
+      "cate_name": "디지털.ICT",
+      "status": "수강완료",
+      "start_date": "2019.07.03",
+      "last_date": "2019.07.06",
+      "study_stat": 95
+    },
+    {
+      "lecture_id": "A0002",
+      "title": "JAVA 프로그래밍",
+      "desc": "안드로이드 앱개발을 위해 꼭 필요한 자바 부분을 선별해서 강의입니다.",
+      "thumb": "A0002.png",
+      "like": 205,
+      "like_stat": "off",
+      "teacher": "윤재성",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "안드로이드"
+      ],
+      "cate_id": "ca01",
+      "cate_name": "디지털.ICT",
+      "status": "수강중",
+      "start_date": "2019.07.03",
+      "last_date": "2019.07.06",
+      "study_stat": 80
+    },
+    {
+      "lecture_id": "A0003",
+      "title": "JAVA 프로그래밍",
+      "desc": "안드로이드 앱개발을 위해 꼭 필요한 자바 부분을 선별해서 강의입니다.",
+      "thumb": "A0003.png",
+      "like": 205,
+      "like_stat": "off",
+      "teacher": "윤재성",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "안드로이드"
+      ],
+      "cate_id": "ca01",
+      "cate_name": "디지털.ICT",
+      "status": "수강완료",
+      "start_date": "2019.07.03",
+      "last_date": "2019.07.06",
+      "study_stat": 96
+    },
+    {
+      "lecture_id": "A0004",
+      "title": "JAVA 프로그래밍",
+      "desc": "안드로이드 앱개발을 위해 꼭 필요한 자바 부분을 선별해서 강의입니다.",
+      "thumb": "A0004.png",
+      "like": 205,
+      "like_stat": "off",
+      "teacher": "윤재성",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "안드로이드"
+      ],
+      "cate_id": "ca01",
+      "cate_name": "디지털.ICT",
+      "status": "수강완료",
+      "start_date": "2019.07.03",
+      "last_date": "2019.07.06",
+      "study_stat": 94
+    },
+    {
+      "lecture_id": "A0005",
+      "title": "JAVA 프로그래밍",
+      "desc": "안드로이드 앱개발을 위해 꼭 필요한 자바 부분을 선별해서 강의입니다.",
+      "thumb": "A0005.png",
+      "like": 205,
+      "like_stat": "off",
+      "teacher": "윤재성",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "안드로이드"
+      ],
+      "cate_id": "ca01",
+      "cate_name": "디지털.ICT",
+      "status": "수강완료",
+      "start_date": "2019.07.03",
+      "last_date": "2019.07.06",
+      "study_stat": 100
+    },
+    {
+      "lecture_id": "A0006",
+      "title": "JAVA 프로그래밍",
+      "desc": "안드로이드 앱개발을 위해 꼭 필요한 자바 부분을 선별해서 강의입니다.",
+      "thumb": "A0006.png",
+      "like": 205,
+      "like_stat": "off",
+      "teacher": "윤재성",
+      "tag": [
+        "java",
+        "it",
+        "programming",
+        "안드로이드"
+      ],
+      "cate_id": "ca01",
+      "cate_name": "디지털.ICT",
+      "status": "수강완료",
+      "start_date": "2019.07.03",
+      "last_date": "2019.07.06",
+      "study_stat": 100
+    }
+  ],
+  "survey": [
+    {
+      "title": "JAVA 프로그래밍",
+      "status": "진행중",
+      "deadLine": "2019.07.07",
+      "isProcessing": true
+    },
+    {
+      "title": "JAVA 프로그래밍 2",
+      "status": "마감",
+      "deadLine": "2019.07.07",
+      "isProcessing": false
+    },
+    {
+      "title": "JAVA 프로그래밍 3",
+      "status": "마감",
+      "deadLine": "2019.07.07",
+      "isProcessing": false
+    },
+    {
+      "title": "JAVA 프로그래밍 3",
+      "status": "마감",
+      "deadLine": "2019.07.07",
+      "isProcessing": false
+    },
+    {
+      "title": "JAVA 프로그래밍 4",
+      "status": "마감",
+      "deadLine": "2019.07.07",
+      "isProcessing": false
+    },
+    {
+      "title": "JAVA 프로그래밍 6",
+      "status": "마감",
+      "deadLine": "2019.07.07",
+      "isProcessing": false
+    }
+  ],
+  "notice": [
+    {
+      "title": "시스템 점검으로 인해 동영상 강좌가 중단됩니다.",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "시스템 점검으로 인해 동영상 강좌가 중단됩니다.",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "시스템 점검으로 인해 동영상 강좌가 중단됩니다.",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "시스템 점검으로 인해 동영상 강좌가 중단됩니다.",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "시스템 점검으로 인해 동영상 강좌가 중단됩니다.",
+      "date": "08.28 (수) 오전 11시 39분"
+    },
+    {
+      "title": "시스템 점검으로 인해 동영상 강좌가 중단됩니다.",
+      "date": "08.28 (수) 오전 11시 39분"
+    }
+  ],
+  "education": [
+    {
+      "edu_id": "e0001",
+      "edu_title": "비지니스를 위한 세계사",
+      "edu_desc": "해질 날 없던 무적함대의 제국, 조승연 작가가 전하는 그들의 뿌리와 열매",
+      "edu_thumb": "2",
+      "edu_date": "2019.09.30",
+      "edu_stat": "A",
+      "isApproval": true
+    },
+    {
+      "edu_id": "e0002",
+      "edu_title": "비지니스를 위한 세계사",
+      "edu_desc": "해질 날 없던 무적함대의 제국, 조승연 작가가 전하는 그들의 뿌리와 열매",
+      "edu_thumb": "2",
+      "edu_date": "2019.09.30",
+      "edu_stat": "W",
+      "isApproval": false
+    },
+    {
+      "edu_id": "e0003",
+      "edu_title": "비지니스를 위한 세계사",
+      "edu_desc": "해질 날 없던 무적함대의 제국, 조승연 작가가 전하는 그들의 뿌리와 열매",
+      "edu_thumb": "2",
+      "edu_date": "2019.09.30",
+      "edu_stat": "D",
+      "isApproval": false
+    },
+    {
+      "edu_id": "e0004",
+      "edu_title": "비지니스를 위한 세계사",
+      "edu_desc": "해질 날 없던 무적함대의 제국, 조승연 작가가 전하는 그들의 뿌리와 열매",
+      "edu_thumb": "2",
+      "edu_date": "2019.09.30",
+      "edu_stat": "P",
+      "isApproval": false
+    },
+    {
+      "edu_id": "e0005",
+      "edu_title": "비지니스를 위한 세계사",
+      "edu_desc": "해질 날 없던 무적함대의 제국, 조승연 작가가 전하는 그들의 뿌리와 열매",
+      "edu_thumb": "2",
+      "edu_date": "2019.09.30",
+      "edu_stat": "R",
+      "isApproval": false
+    }
+  ],
+  "approval": [
+    { "apply_id": "q0001", "app_msg":"홍길동사원이 인문학 강좌를 신청했습니다." ,  "app_date":"2019.08.30 14:32"},
+    { "apply_id": "q0001", "app_msg":"홍길동사원이 인문학 강좌를 신청했습니다." ,  "app_date":"2019.08.30 14:32"},
+    { "apply_id": "q0001", "app_msg":"홍길동사원이 인문학 강좌를 신청했습니다." ,  "app_date":"2019.08.30 14:32"},
+    { "apply_id": "q0001", "app_msg":"홍길동사원이 인문학 강좌를 신청했습니다." ,  "app_date":"2019.08.30 14:32"},
+    { "apply_id": "q0001", "app_msg":"홍길동사원이 인문학 강좌를 신청했습니다." ,  "app_date":"2019.08.30 14:32"},
+    { "apply_id": "q0001", "app_msg":"홍길동사원이 인문학 강좌를 신청했습니다." ,  "app_date":"2019.08.30 14:32"},
+    { "apply_id": "q0001", "app_msg":"홍길동사원이 인문학 강좌를 신청했습니다." ,  "app_date":"2019.08.30 14:32"},
+    { "apply_id": "q0001", "app_msg":"홍길동사원이 인문학 강좌를 신청했습니다." ,  "app_date":"2019.08.30 14:32"}
+  ],
+  "category": [
+    {
+      "cate_id": "ca01",
+      "cate_name": "디지털\n∙\nICT",
+      "cate_icon": "#48bcfa"
+    },
+    {
+      "cate_id": "ca02",
+      "cate_name": "경영\n∙\n리더십",
+      "cate_icon": "#41d580"
+    },
+    {
+      "cate_id": "ca03",
+      "cate_name": "인문\n∙\n어학",
+      "cate_icon": "#b076db"
+    },
+    {
+      "cate_id": "ca04",
+      "cate_name": "법정\n\n의무",
+      "cate_icon": "#ea85d3"
+    }
+  ],
+  "auth": [
+    {
+      "auth_id": "s0001",
+      "auth_name": "홍길동",
+      "auth_team": "경영지원팀"
+    },
+    {
+      "auth_id": "s0002",
+      "auth_name": "김철수",
+      "auth_team": "정보보안팀"
+    },
+    {
+      "auth_id": "s0003",
+      "auth_name": "이영희",
+      "auth_team": "사업팀"
+    }
+  ]
+}

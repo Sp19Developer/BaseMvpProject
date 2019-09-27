@@ -1,0 +1,63 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/layout_header_toolbar"
+            android:visibility="visible" />
+
+        <FrameLayout
+            style="@style/match_match"
+            android:animateLayoutChanges="true"
+            android:background="@color/app_bg_color"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <com.mvpbase.utils.customView.CustomSwipeToRefresh
+                android:id="@+id/swRefDashboard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.mvpbase.utils.customView.CustomRecyclerView
+                        android:id="@+id/rvDashboard"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                    <TextView
+                        android:id="@+id/tvNotFound"
+                        style="@style/AppTheme.TextView.NotFound" />
+
+                </RelativeLayout>
+
+
+            </com.mvpbase.utils.customView.CustomSwipeToRefresh>
+            <include
+                android:id="@+id/extraViews"
+                layout="@layout/layout_extra_views"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="gone" />
+
+        </FrameLayout>
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

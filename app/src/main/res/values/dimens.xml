@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_margin_min">@dimen/_4sdp</dimen>
+    <dimen name="app_margin">@dimen/_8sdp</dimen>
+    <dimen name="app_margin_max">@dimen/_12sdp</dimen>
+
+    <dimen name="app_text_min">@dimen/_6ssp</dimen>
+    <dimen name="app_text_min_medium">@dimen/_7sdp</dimen>
+    <dimen name="app_text_medium">@dimen/_8ssp</dimen>
+    <dimen name="app_text_regular_medium">@dimen/_9sdp</dimen>
+    <dimen name="app_text_regular">@dimen/_10ssp</dimen>
+    <dimen name="app_text_max">@dimen/_12ssp</dimen>
+    <dimen name="app_text_regular_large">@dimen/_13ssp</dimen>
+    <dimen name="app_text_large">@dimen/_14ssp</dimen>
+    <dimen name="header_text_size">@dimen/_14ssp</dimen>
+
+    <dimen name="app_padding_min">@dimen/app_margin_min</dimen>
+    <dimen name="app_padding">@dimen/app_margin</dimen>
+    <dimen name="app_padding_max">@dimen/app_margin_max</dimen>
+
+    <dimen name="app_card_elevation">2dp</dimen>
+    <dimen name="app_card_corner_radius">2dp</dimen>
+    <dimen name="app_header_name_size">@dimen/app_text_regular_medium</dimen>
+
+
+    <dimen name="edt_mar_left">@dimen/_25sdp</dimen>
+    <dimen name="edt_mar_right">@dimen/_25sdp</dimen>
+    <dimen name="edt_hint_text_size">@dimen/_11ssp</dimen>
+    <dimen name="app_edt_text_size">@dimen/_12ssp</dimen>
+
+    <dimen name="nav_header">@dimen/_150sdp</dimen>
+    <dimen name="nav_menu_size">@dimen/_20sdp</dimen>
+
+    <dimen name="home_header_size">@dimen/_14sdp</dimen>
+    <dimen name="color_view_height">@dimen/_3sdp</dimen>
+
+    <dimen name="textsize_medium_large">@dimen/_14sdp</dimen>
+    <dimen name="padding_left_right_list">@dimen/_12sdp</dimen>
+
+
+    <dimen name="header_height">@dimen/_43sdp</dimen>
+    <dimen name="header_screen_icon_size">@dimen/_35sdp</dimen>
+    <dimen name="txtsize_header_title">@dimen/_16sdp</dimen>
+
+    <dimen name="header_icon_padding">@dimen/_5sdp</dimen>
+    <dimen name="sub_header_font_size_20">20sp</dimen>
+    <dimen name="sub_text_size">@dimen/_16sdp</dimen>
+
+    <dimen name="grid_width_product_listing">@dimen/_160sdp</dimen>
+
+    <dimen name="home_menu_image_size">@dimen/_60sdp</dimen>
+    <dimen name="app_icon_notification">@dimen/_15sdp</dimen>
+
+
+    <dimen name="min_height">@dimen/_80sdp</dimen>
+    <dimen name="big_circle_radius">@dimen/_26sdp</dimen>
+    <dimen name="small_circle_radius">@dimen/_20sdp</dimen>
+    <dimen name="min_gap">@dimen/_80sdp</dimen>
+    <dimen name="radius_large">@dimen/_90sdp</dimen>
+    <dimen name="divider_length">@dimen/_1sdp</dimen>
+</resources>

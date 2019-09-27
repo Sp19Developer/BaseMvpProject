@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "587772368207",
+    "firebase_url": "https://shinple-android.firebaseio.com",
+    "project_id": "shinple-android",
+    "storage_bucket": "shinple-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587772368207:android:bca024e84aa70f38efa13a",
+        "android_client_info": {
+          "package_name": "com.shinple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587772368207-l68prdqq06r0v3cnllnbbvh5dmcnrd5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaheMRjqElpy8QKFmG7Epo0bJCSL8gCCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587772368207-l68prdqq06r0v3cnllnbbvh5dmcnrd5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

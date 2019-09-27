@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data></data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_color">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical"
+                app:contentInsetStartWithNavigation="0dp"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivToolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/ic_company_logo" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <include
+            android:id="@+id/containerFrame"
+            layout="@layout/content_dash_board" />
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:elevation="@dimen/_4sdp"
+            android:foreground="?attr/selectableItemBackground"
+            android:visibility="visible"
+            app:itemIconTint="@null"
+            app:itemTextColor="@color/app_color"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/activity_bottom_drawer" />
+
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="@dimen/_52sdp"
+            android:layout_height="@dimen/_52sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_tapbar"
+            app:elevation="24dp"
+            app:fabCustomSize="@dimen/_52sdp"
+            app:layout_anchor="@+id/nav_bottom"
+            app:layout_anchorGravity="top|center_horizontal" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
